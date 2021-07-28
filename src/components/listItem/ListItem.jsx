@@ -17,7 +17,7 @@ export default function ListItem({ index }) {
             />
             {isHovered && (
                 <>
-                    <video src={trailer} autoPlay={true} loop />
+                    <video crossOrigin="anonymous" src={trailer} autoPlay={true} loop />
                     <div className="itemInfo">
                         <div className="icons">
                             <PlayArrow className="icon"/>
